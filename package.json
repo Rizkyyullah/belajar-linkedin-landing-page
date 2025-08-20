@@ -1,0 +1,26 @@
+{
+	"name": "belajar-linkedin-landing-page",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.css --watch"
+	},
+	"keywords": [
+		"Landing Page",
+		"Belajar LinkedIn",
+		"HTML",
+		"Tailwind CSS",
+		"JavaScript"
+	],
+	"author": "Muhamad Ali Rizkyyullah Ibnu Asy'ad",
+	"license": "ISC",
+	"description": "Belajar LinkedIn Landing Page promoting the 'Mastering LinkedIn for career growth' online class by Belajar LinkedIn.",
+	"dependencies": {
+		"@tailwindcss/cli": "^4.1.12",
+		"tailwindcss": "^4.1.12"
+	},
+	"devDependencies": {
+		"prettier": "^3.6.2",
+		"prettier-plugin-tailwindcss": "^0.6.14"
+	}
+}
+

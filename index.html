@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en" class="overflow-x-hidden scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Belajar LinkedIn Landing Page</title>
+		<link rel="stylesheet" href="public/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+			integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body class="font-poppins leading-[1.6] text-gray-700">
+		<nav
+			class="border-secondary fixed top-0 left-0 z-[1000] w-full border-b-2 bg-white py-4">
+			<div
+				id="menu"
+				class="group m-auto flex max-w-[1200px] items-center justify-between px-8">
+				<a href="#" class="text-2xl font-bold">Belajar LinkedIn</a>
+				<ul
+					class="bg-primary flex list-none gap-8 text-white group-[.active]:left-0 max-md:fixed max-md:top-[66px] max-md:-left-full max-md:h-lvh max-md:w-full max-md:flex-col max-md:overflow-y-scroll max-md:py-8 max-md:text-center max-md:leading-12 max-md:duration-300 md:bg-transparent md:text-gray-700">
+					<li>
+						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li>
+						<a href="#about" class="nav-link">About</a>
+					</li>
+					<li>
+						<a href="#benefits" class="nav-link">Benefits</a>
+					</li>
+					<li>
+						<a href="#activities" class="nav-link">Activities</a>
+					</li>
+					<li>
+						<a href="#testimonials" class="nav-link">Testimonials</a>
+					</li>
+					<li>
+						<a href="#faq" class="nav-link">FAQ</a>
+					</li>
+				</ul>
+				<div id="hamburger" class="hidden cursor-pointer flex-col max-md:flex">
+					<span
+						class="bg-secondary my-1 h-[3px] w-7 duration-300 [.active_&]:my-0 [.active_&]:rotate-45 before:[.active_&]:rotate-45 before:[.active_&]:shadow-none"></span
+					><span
+						class="bg-secondary my-1 h-[3px] w-7 duration-300 [.active_&]:absolute [.active_&]:scale-0 [.active_&]:opacity-0"></span
+					><span
+						class="bg-secondary my-1 h-[3px] w-7 duration-300 [.active_&]:my-[-3px] [.active_&]:-rotate-45 after:[.active_&]:-rotate-45"></span>
+				</div>
+			</div>
+		</nav>
+
+		<section
+			id="hero"
+			class="relative flex h-dvh items-center justify-center bg-[linear-gradient(135deg,rgba(0,158,222,0.7),rgba(0,89,134,0.7)),url('https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-fixed bg-center text-center text-white">
+			<div class="animate-fadeInUp max-w-[800px] px-8">
+				<h1
+					class="mb-4 text-4xl font-bold text-shadow-md/30 lg:text-6xl lg:text-shadow-lg/30">
+					Mastering LinkedIn for Career Growth
+				</h1>
+				<p class="mb-8 text-xl opacity-90">
+					Boost your career with proven LinkedIn strategies
+				</p>
+				<a
+					href="#register"
+					class="text-primary bg-tertiary inline-block rounded-[50px] px-10 py-4 text-xl font-bold no-underline transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_25px_rgba(255,211,78,0.5)]">
+					<i class="fas fa-rocket"></i> Register Now</a
+				>
+			</div>
+		</section>
+
+		<section id="about" class="bg-linear-[135deg,#f8f9fa,#e9ecef]">
+			<div class="container">
+				<h2 class="fade-in">About Class</h2>
+				<div
+					class="fade-in mx-auto max-w-[800px] text-justify text-xl leading-[1.8] hyphens-auto">
+					<p>
+						The "Mastering LinkedIn for Career Growth" class is specifically
+						designed for professionals who want to maximise LinkedIn's potential
+						for career growth. In this class, you will learn comprehensive
+						strategies to build a compelling LinkedIn profile, expand your
+						professional network, and utilise the platform to find new career
+						opportunities. With a practical approach and real-life case studies,
+						this class provides tools and techniques that can be applied
+						immediately to increase your professional visibility and credibility
+						in the digital world.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="benefits">
+			<div class="container">
+				<h2 class="fade-in">Key Benefits</h2>
+				<div
+					class="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-8">
+					<div class="fade-in benefit-card">
+						<div class="text-secondary mb-4 text-5xl">
+							<i class="fas fa-user-tie"></i>
+						</div>
+						<h3 class="mb-2 font-bold">Optimal Professional Profile</h3>
+						<p>
+							Learn how to build an attractive and professional LinkedIn profile
+							to enhance personal branding
+						</p>
+					</div>
+					<div class="fade-in benefit-card">
+						<div class="text-secondary mb-4 text-5xl">
+							<i class="fas fa-network-wired"></i>
+						</div>
+						<h3 class="mb-2 font-bold">Strategic Networking</h3>
+						<p>
+							Master the techniques of building effective professional networks
+							and meaningful connections
+						</p>
+					</div>
+					<div class="fade-in benefit-card">
+						<div class="text-secondary mb-4 text-5xl">
+							<i class="fas fa-briefcase"></i>
+						</div>
+						<h3 class="mb-2 font-bold">New Career Opportunities</h3>
+						<p>
+							Find and utilise the best career opportunities through LinkedIn
+							job search and company research.
+						</p>
+					</div>
+					<div class="fade-in benefit-card">
+						<div class="text-secondary mb-4 text-5xl">
+							<i class="fas fa-chart-line"></i>
+						</div>
+						<h3 class="mb-2 font-bold">Content Strategy</h3>
+						<p>
+							Learn how to create engaging content and build thought leadership
+							in your industry
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="activities"
+			class="bg-[linear-gradient(135deg,rgba(0,150,222,0.05),rgba(0,89,134,0.05))]">
+			<div class="container">
+				<h2 class="fade-in">Class Activities</h2>
+				<div
+					class="mt-8 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4">
+					<div class="fade-in gallery-item">
+						<img
+							src="https://images.unsplash.com/photo-1588196749597-9ff075ee6b5b?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							alt="Class activity 1"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+					<div class="fade-in gallery-item">
+						<img
+							src="https://images.unsplash.com/photo-1616531770192-6eaea74c2456?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							alt="Class activity 2"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+					<div class="fade-in gallery-item">
+						<img
+							src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG9ubGluZSUyMGNsYXNzfGVufDB8fDB8fHww"
+							alt="Class activity 3"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+					<div class="fade-in gallery-item">
+						<img
+							src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG9ubGluZSUyMGNsYXNzfGVufDB8fDB8fHww"
+							alt="Class activity 4"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+					<div class="fade-in gallery-item">
+						<img
+							src="https://media.istockphoto.com/id/1675848302/id/foto/pemuda-menggunakan-laptop-untuk-kursus-online-belajar-mencari-informasi.webp?a=1&b=1&s=612x612&w=0&k=20&c=peOpVojCAGAj3CCHOgZ1U1gGm9qnwF6rUGmHB6d4c8A="
+							alt="Class activity 5"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+					<div class="fade-in gallery-item">
+						<img
+							src="https://plus.unsplash.com/premium_photo-1664104722370-e90cba771a6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fG9ubGluZSUyMGNsYXNzfGVufDB8fDB8fHww"
+							alt="Class activity 6"
+							class="image-modal h-64 w-full object-cover" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div
+			id="modal"
+			class="fixed top-0 left-0 block scale-0 bg-black/90 opacity-0">
+			<span
+				class="hover:text-tertiary absolute top-4 right-9 z-10 cursor-pointer text-4xl font-bold text-[#f1f1f1]"
+				>&times;</span
+			>
+			<div class="flex h-dvh w-dvw items-center justify-center">
+				<img
+					src=""
+					alt=""
+					id="modalImage"
+					class="w-full scale-0 object-contain transition-all duration-300 ease-in-out min-[320px]:h-4/5 md:h-full md:w-4/5" />
+			</div>
+		</div>
+
+		<section id="testimonials">
+			<div class="container">
+				<h2 class="fade-in">Alumni Testimonials</h2>
+				<div
+					class="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-8">
+					<div class="fade-in testimonial">
+						<img
+							src="https://plus.unsplash.com/premium_photo-1689977968861-9c91dbb16049?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							alt="Alumni 1"
+							class="testimonial-avatar image-modal" />
+						<div class="mb-4 italic">
+							"This class completely changed the way I use LinkedIn. Within 3
+							months, I got 5 job offers from recruiters!"
+						</div>
+						<div class="text-primary font-bold">
+							Ahmad Rizki - Marketing Manager
+						</div>
+					</div>
+					<div class="fade-in testimonial">
+						<img
+							src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							alt="Alumni 2"
+							class="testimonial-avatar image-modal" />
+						<div class="mb-4 italic">
+							"The material is practical and immediately applicable. Now my
+							LinkedIn profile is much more professional and attractive."
+						</div>
+						<div class="text-primary font-bold">Sari Indah - HR Specialist</div>
+					</div>
+					<div class="fade-in testimonial">
+						<img
+							src="https://images.unsplash.com/photo-1639747280804-dd2d6b3d88ac?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+							alt="Alumni 3"
+							class="testimonial-avatar image-modal" />
+						<div class="mb-4 italic">
+							"The networking strategies taught are very effective. My
+							connection increased by 200% and the quality is much better."
+						</div>
+						<div class="text-primary font-bold">
+							Budi Santoso - Business Analyst
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="faq"
+			class="bg-[linear-gradient(135deg,rgba(0,150,222,0.05),rgba(0,89,134,0.05))]">
+			<div class="container">
+				<h2 class="fade-in">Frequently Asked Questions</h2>
+				<div class="mx-auto max-w-[800px]">
+					<div class="accordion-item fade-in">
+						<div class="accordion-header">
+							<span>How long is the duration of this class?</span>
+							<i class="fas fa-plus"></i>
+						</div>
+						<div
+							class="accordion-content max-h-0 overflow-hidden transition-[max-height] duration-300 ease-in-out [.active]:max-h-[200px]">
+							<div class="p-6">
+								The class runs for 4 weeks with a total of 16 learning hours,
+								consisting of 8 interactive online sessions of 2 hours each.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item fade-in">
+						<div class="accordion-header">
+							<span>Is it suitable for beginners?</span>
+							<i class="fas fa-plus"></i>
+						</div>
+						<div
+							class="accordion-content max-h-0 overflow-hidden transition-[max-height] duration-300 ease-in-out [.active]:max-h-[200px]">
+							<div class="p-6">
+								Yes, this class is designed for all levels, from beginners to
+								professionals who want to optimise their use of LinkedIn
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item fade-in">
+						<div class="accordion-header">
+							<span>Is there a certificate?</span>
+							<i class="fas fa-plus"></i>
+						</div>
+						<div
+							class="accordion-content max-h-0 overflow-hidden transition-[max-height] duration-300 ease-in-out [.active]:max-h-[200px]">
+							<div class="p-6">
+								Yes, participants will get a digital certificate after
+								completing all modules and assignments given.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item fade-in">
+						<div class="accordion-header">
+							<span>What is the payment system?</span>
+							<i class="fas fa-plus"></i>
+						</div>
+						<div
+							class="accordion-content max-h-0 overflow-hidden transition-[max-height] duration-300 ease-in-out [.active]:max-h-[200px]">
+							<div class="p-6">
+								We accept payments via bank transfer, e-wallet, and credit
+								cards. There is also a 0% instalment option for selected credit
+								cards.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section
+			id="register"
+			class="bg-[linear-gradient(135deg,rgba(0,158,222,2),rgba(0,89,134,1))] text-center text-white">
+			<div class="container">
+				<h2 class="fade-in mb-12 text-center text-4xl font-bold text-white">
+					Ready to Boost Your Career?
+				</h2>
+				<p class="fade-in mb-8 text-xl">
+					Don't miss this golden opportunity! Apply now and achieve your dream
+					career.
+				</p>
+				<a
+					href="https://www.instagram.com/belajarlinkedin/#"
+					target="_blank"
+					class="fade-in cta-button bg-tertiary text-primary inline-block rounded-[50px] px-10 py-4 text-xl font-bold no-underline transition-all duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:shadow-[0_8px_25px_rgba(255,211,78,0.5)]">
+					<i class="fas fa-graduation-cap"></i> Register Now
+				</a>
+			</div>
+		</section>
+
+		<footer class="bg-primary py-8 text-center text-white">
+			<div class="container">
+				<p>&copy; 2025 Belajar LinkedIn. All rights reserved.</p>
+				<div class="mt-4">
+					<a
+						href="#"
+						class="hover:text-tertiary mx-4 text-2xl text-white transition-colors duration-300 ease-in-out"
+						><i class="fab fa-linkedin"></i
+					></a>
+					<a
+						href="https://www.instagram.com/belajarlinkedin/#"
+						target="_blank"
+						class="hover:text-tertiary mx-4 text-2xl text-white transition-colors duration-300 ease-in-out"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a
+						href="#"
+						class="hover:text-tertiary mx-4 text-2xl text-white transition-colors duration-300 ease-in-out"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						href="#"
+						class="hover:text-tertiary mx-4 text-2xl text-white transition-colors duration-300 ease-in-out"
+						><i class="fab fa-youtube"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="public/script/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+	--font-poppins: "Poppins", "Arial", "sans-serif";
+
+	--color-tertiary: rgba(255, 211, 78, 1);
+	--color-secondary: rgba(0, 158, 222, 0.9);
+	--color-primary: rgba(0, 89, 134, 0.95);
+
+	--animate-fadeInUp: fadeInUp 1s ease;
+}
+
+@layer base {
+	h2 {
+		@apply text-primary mb-12 text-center text-4xl font-bold;
+	}
+
+	section {
+		@apply py-20;
+	}
+}
+
+@layer components {
+	.container {
+		@apply mx-auto px-8;
+	}
+
+	.nav-link {
+		@apply md:hover:text-secondary md:after:bg-secondary hover:text-tertiary after:bg-tertiary relative text-[.8rem] tracking-tight transition-[color] duration-300 ease-in-out after:absolute after:-bottom-1.5 after:left-0 after:h-0.5 after:w-0 after:transition-[width] after:duration-300 after:ease-in-out after:content-[''] hover:after:w-full lg:text-[1rem];
+	}
+
+	.benefit-card {
+		@apply rounded-[15px] bg-white p-8 text-center shadow-[0_5px_25px_rgba(0,0,0,0.1)] transition-transform duration-300 ease-in-out hover:-translate-y-2.5 lg:shadow-xl/50 lg:shadow-gray-700;
+	}
+
+	.gallery-item {
+		@apply relative cursor-pointer overflow-hidden rounded-2xl transition-transform duration-300 ease-in-out hover:scale-105;
+	}
+
+	.testimonial {
+		@apply rounded-2xl bg-linear-[135deg,#f8f9fa,#e9ecef] p-8 text-center;
+	}
+
+	.testimonial-avatar {
+		@apply m-[0_auto_1rem] h-20 w-20 cursor-pointer rounded-full object-cover transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl/30;
+	}
+
+	.accordion-item {
+		@apply mb-4 overflow-hidden rounded-xl bg-white shadow-[0,2px,10px,rgba(0,0,0,0.1)];
+	}
+
+	.accordion-header {
+		@apply bg-primary hover:bg-secondary flex cursor-pointer items-center justify-between p-6 text-white transition duration-300 ease-in-out;
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.6s ease;
+}
+
+.fade-in.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
