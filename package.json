@@ -2,7 +2,8 @@
 	"name": "belajar-linkedin-landing-page",
 	"version": "1.0.0",
 	"scripts": {
-		"dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.css --watch"
+		"dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.css --watch",
+		"prod": "npx @tailwindcss/cli -i ./src/input.css -o ./public/css/style.min.css --minify"
 	},
 	"keywords": [
 		"Landing Page",
@@ -23,4 +24,3 @@
 		"prettier-plugin-tailwindcss": "^0.6.14"
 	}
 }
-
